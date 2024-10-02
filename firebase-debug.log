@@ -1,0 +1,28 @@
+[debug] [2024-10-02T16:49:51.408Z] ----------------------------------------------------------------------
+[debug] [2024-10-02T16:49:51.412Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\saura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2024-10-02T16:49:51.413Z] CLI Version:   13.20.2
+[debug] [2024-10-02T16:49:51.413Z] Platform:      win32
+[debug] [2024-10-02T16:49:51.413Z] Node Version:  v22.7.0
+[debug] [2024-10-02T16:49:51.414Z] Time:          Wed Oct 02 2024 22:19:51 GMT+0530 (India Standard Time)
+[debug] [2024-10-02T16:49:51.414Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-02T16:49:51.521Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-02T16:49:51.522Z] > authorizing via signed-in user (saurabh.sagar564@gmail.com)
+[debug] [2024-10-02T16:49:51.524Z] Checked if tokens are valid: true, expires at: 1727890919318
+[debug] [2024-10-02T16:49:51.525Z] Checked if tokens are valid: true, expires at: 1727890919318
+[debug] [2024-10-02T16:49:51.528Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2024-10-02T16:49:53.666Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-10-02T16:49:53.667Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2024-10-02T16:50:02.137Z] TypeError: Cannot read properties of undefined (reading 'value')
+    at ListPrompt.getCurrentValue (C:\Users\saura\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\inquirer\lib\prompts\list.js:145:53)
+    at C:\Users\saura\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\operators\map.js:10:37
+    at OperatorSubscriber._this._next (C:\Users\saura\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\operators\OperatorSubscriber.js:33:21)
+    at Subscriber.next (C:\Users\saura\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\Subscriber.js:51:18)
+    at C:\Users\saura\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\operators\take.js:15:32
+    at OperatorSubscriber._this._next (C:\Users\saura\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\operators\OperatorSubscriber.js:33:21)
+    at Subscriber.next (C:\Users\saura\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\Subscriber.js:51:18)
+    at Interface.handler (C:\Users\saura\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\observable\fromEvent.js:59:31)
+    at Interface.emit (node:events:532:35)
+    at Interface.emit (node:domain:488:12)
+[error] 
+[error] Error: An unexpected error has occurred.
