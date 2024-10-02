@@ -1,0 +1,16 @@
+/* Question.css */
+.question_container {
+    padding: 20px; /* Optional: Add padding for better layout */
+    background-color: #282c34; /* Optional: Background color for contrast */
+    border-radius: 10px; /* Optional: Rounded corners */
+  }
+  
+  .question_container h3 {
+    color: white; /* Set the color of h3 to white */
+    margin-bottom: 15px; /* Space below the greeting */
+  }
+  
+  .question_container h4 {
+    color: #d3d3d3; /* Slightly lighter color for the question */
+  }
+  

@@ -1,0 +1,64 @@
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    background-color: #f9f9f9; /* Light background color */
+    max-width: 400px; /* Limit the width for better readability */
+    margin: auto; /* Center the container on the page */
+  }
+  
+  h2 {
+    color: #333; /* Darker text for headings */
+  }
+  
+  h3 {
+    color: #555; /* Slightly lighter text for subheadings */
+    margin-bottom: 20px; /* Space below subheading */
+    text-align: center; /* Center-align text */
+  }
+  
+  .username-container {
+    width: 100%; /* Full width for the container */
+    margin-bottom: 20px; /* Space below input */
+  }
+  
+  .username-label {
+    display: block; /* Block-level for full width */
+    margin-bottom: 8px; /* Space between label and input */
+    font-weight: bold; /* Make the label bold */
+    color: #444; /* Darker text color for visibility */
+  }
+  
+  .username-input {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Padding for better touch targets */
+    border: 1px solid #ccc; /* Light border for the input */
+    border-radius: 5px; /* Rounded corners for the input */
+    font-size: 16px; /* Larger font for readability */
+    transition: border-color 0.3s; /* Transition for border color on focus */
+  }
+  
+  .username-input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .btn {
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for button */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for background color */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

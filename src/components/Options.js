@@ -1,3 +1,9 @@
+// Remove this if 'Question' is not used in Options.jsi
+
+import Question from "./Question";
+
+
+
 function Options({ question, dispatch, answer }) {
   const hasAnswered = answer !== null;
 
@@ -24,3 +30,15 @@ function Options({ question, dispatch, answer }) {
 }
 
 export default Options;
+
+
+
+
+
+
+
+
+
+
+
+

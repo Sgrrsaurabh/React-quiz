@@ -1,0 +1,57 @@
+.subject-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 40px;
+  background-color: white; /* White background for the container */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 600px; /* Max width for better layout */
+  margin: 40px auto; /* Center horizontally with auto and provide top/bottom margin */
+  margin-left: 140px; /* Add margin to move the box to the right */
+}
+
+.subject-selection h2 {
+  font-size: 22px; /* Larger font size */
+  margin-bottom: 20px; /* Spacing below the heading */
+  color: #333; /* Dark text color for better contrast */
+}
+
+.subject-selection button {
+  width: 100%; /* Full width buttons */
+  height: 60px; /* Consistent height for buttons */
+  background-color: #1e73b8; /* Green background for buttons */
+  color: rgb(35, 33, 33); /* Text color for buttons */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners for buttons */
+  font-size: 18px; /* Font size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  margin: 10px 0; /* Spacing between buttons */
+}
+
+.subject-selection button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.subject-selection button:active {
+  background-color: #3e8e41; /* Darker green when active */
+  transform: translateY(0); /* Reset lift effect */
+}
+
+.subject-selection button:focus {
+  outline: none; /* Remove outline */
+}
+
+@media (max-width: 768px) {
+  .subject-selection h2 {
+    font-size: 24px; /* Smaller heading on smaller screens */
+  }
+
+  .subject-selection button {
+    font-size: 16px; /* Smaller font size for buttons */
+  }
+}

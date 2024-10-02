@@ -1,0 +1,31 @@
+/* Header.css */
+
+.app-header {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 300px; /* Increased height for a larger box */
+    background-image: url('./quiz.png'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire header area */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Stronger shadow for better readability */
+    font-family: 'Arial', sans-serif; /* Font family */
+    padding: 40px; /* Increased padding around the content */
+    border-radius: 15px; /* Rounded corners for the header */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect for depth */
+    margin: 20px; /* Add some margin around the header */
+}
+  
+.header-title {
+    font-size: 48px; /* Increased font size for the title */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text within the header */
+}
+  
+/* Add responsive design */
+@media (max-width: 600px) {
+    .header-title {
+        font-size: 36px; /* Smaller font size for mobile */
+    }
+}
