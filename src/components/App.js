@@ -116,7 +116,7 @@ export default function App() {
       } else if (selectedSubject === "os") {
         url = 'https://raw.githubusercontent.com/Sgrrsaurabh/React-quiz-Bright/refs/heads/main/os.json';
       } else if (selectedSubject === "dbms") {
-        url = 'https://example.com/dbms.json'; // Replace with actual URL for DBMS
+        url = 'https://raw.githubusercontent.com/Sgrrsaurabh/React-quiz-Bright/refs/heads/main/dbms.json'; // Replace with actual URL for DBMS
       } else if (selectedSubject === "javascript") {
         url = 'https://raw.githubusercontent.com/Sgrrsaurabh/React-quiz-Bright/refs/heads/main/javascript.json';
       }
