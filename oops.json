@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "question": "What is the main principle of Object-Oriented Programming?",
+      "options": ["Encapsulation", "Abstraction", "Inheritance", "Polymorphism"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which keyword is used to create a class in JavaScript?",
+      "options": ["function", "class", "define", "new"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What do we call a blueprint for creating objects?",
+      "options": ["Function", "Method", "Class", "Instance"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What is it called when a class inherits properties and methods from another class?",
+      "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which of the following is NOT a feature of OOP?",
+      "options": ["Data abstraction", "Encapsulation", "Static typing", "Inheritance"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What is polymorphism?",
+      "options": [
+        "Ability to create multiple objects",
+        "Ability to use the same method in different ways",
+        "Ability to hide internal state",
+        "Ability to create subclasses"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What is the purpose of constructors in OOP?",
+      "options": [
+        "To destroy objects",
+        "To initialize new objects",
+        "To define methods",
+        "To create variables"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What keyword is used to access the properties of the current object in a class?",
+      "options": ["this", "self", "current", "that"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the term for a class that cannot be instantiated?",
+      "options": ["Abstract class", "Concrete class", "Base class", "Derived class"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Which of the following best describes encapsulation?",
+      "options": [
+        "Combining data and methods in a single unit",
+        "Hiding the implementation details from the user",
+        "Creating a new version of a method",
+        "Reusing existing code"
+      ],
+      "correctOption": 1,
+      "points": 20
+    }
+  ]
+}

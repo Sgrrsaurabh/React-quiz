@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following is a type of Database Management System?",
+      "options": ["Relational DBMS", "Spreadsheet", "Text Editor", "Word Processor"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the primary key in a database?",
+      "options": [
+        "A unique identifier for each record",
+        "A key used for encryption",
+        "A key to start a database",
+        "A key to sort data"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is an example of a relational database?",
+      "options": ["MySQL", "NoSQL", "JSON", "MongoDB"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What does SQL stand for?",
+      "options": [
+        "Standard Query Language",
+        "Structured Query Language",
+        "Simple Query Language",
+        "Secure Query Language"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What is the purpose of normalization in a database?",
+      "options": [
+        "To reduce redundancy",
+        "To increase redundancy",
+        "To encrypt data",
+        "To create new tables"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is a valid SQL command?",
+      "options": ["SELECT", "UPDATE", "DELETE", "All of the above"],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "What is a foreign key in a relational database?",
+      "options": [
+        "A key that connects two tables",
+        "A unique identifier for a record",
+        "A primary key of the current table",
+        "A key for indexing"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is NOT a type of SQL join?",
+      "options": ["Inner Join", "Outer Join", "Full Join", "Upper Join"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What is a database index?",
+      "options": [
+        "A mechanism to improve search speed",
+        "A way to store data",
+        "A data type",
+        "A query method"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Which of the following is true about transactions in a database?",
+      "options": [
+        "They must be atomic",
+        "They are optional",
+        "They are used for backups",
+        "They are only for read operations"
+      ],
+      "correctOption": 0,
+      "points": 20
+    }
+  ]
+}

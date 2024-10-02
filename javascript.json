@@ -1,0 +1,80 @@
+{
+    "questions": [
+      {
+        "question": "Which of the following is a JavaScript data type?",
+        "options": ["Number", "String", "Boolean", "All of the above"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "Which method is used to create an object in JavaScript?",
+        "options": ["Object.create()", "Object()", "new Object()", "createObject()"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which keyword is used to declare a variable in JavaScript?",
+        "options": ["var", "let", "const", "All of the above"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What is the result of `typeof null` in JavaScript?",
+        "options": ["null", "undefined", "object", "boolean"],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "Which method can be used to convert JSON data into a JavaScript object?",
+        "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "JSON.objectify()"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is a closure in JavaScript?",
+        "options": [
+          "A function that returns another function",
+          "A function that has access to its own scope, the outer scope, and global scope",
+          "A function that executes immediately",
+          "A function with no return value"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "Which of the following is true about 'use strict' in JavaScript?",
+        "options": [
+          "It enforces stricter parsing and error handling",
+          "It makes variables immutable",
+          "It converts JavaScript to statically typed",
+          "It removes deprecated features"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which of the following will stop event propagation?",
+        "options": ["event.stopPropagation()", "event.preventDefault()", "event.stop()", "event.prevent()"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which statement creates an immediately invoked function expression (IIFE)?",
+        "options": ["function() {}()", "(function() {})()", "function() {}", "function()[]"],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "What does the '===' operator in JavaScript do?",
+        "options": [
+          "Compares values only",
+          "Compares both values and types",
+          "Assigns a value to a variable",
+          "Checks for truthy values"
+        ],
+        "correctOption": 1,
+        "points": 20
+      }
+    ]
+  }
+  

@@ -1,0 +1,100 @@
+{
+    "questions": [
+      {
+        "question": "Which of the following is an example of an Operating System?",
+        "options": ["Microsoft Word", "Linux", "Python", "Google Chrome"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What is the main purpose of an Operating System?",
+        "options": [
+          "To manage hardware resources",
+          "To edit text files",
+          "To compile code",
+          "To browse the internet"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which of the following is a task of memory management in an OS?",
+        "options": ["Process scheduling", "Disk management", "Memory allocation", "File permissions"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What is a 'process' in an operating system?",
+        "options": [
+          "A type of file",
+          "A program in execution",
+          "A function in a program",
+          "A part of the compiler"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "Which of the following is NOT a type of operating system?",
+        "options": ["Real-time OS", "Distributed OS", "Centralized OS", "Network OS"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What is a deadlock in an OS?",
+        "options": [
+          "When a process terminates unexpectedly",
+          "When two processes wait for each other to release resources",
+          "When a process fails to allocate memory",
+          "When a system crashes"
+        ],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "What is virtual memory in an OS?",
+        "options": [
+          "A memory management technique",
+          "A type of physical memory",
+          "A temporary storage for programs",
+          "A type of memory used for caching"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of a system call in an OS?",
+        "options": [
+          "To request services from the kernel",
+          "To switch between processes",
+          "To terminate programs",
+          "To manage files"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which of the following scheduling algorithms assigns the CPU to the process with the shortest next burst?",
+        "options": [
+          "First-Come, First-Served",
+          "Round Robin",
+          "Shortest Job Next",
+          "Priority Scheduling"
+        ],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "What is a kernel in an OS?",
+        "options": [
+          "The core part of the OS that manages operations",
+          "A user interface",
+          "A type of device driver",
+          "A file system"
+        ],
+        "correctOption": 0,
+        "points": 20
+      }
+    ]
+  }
+  
